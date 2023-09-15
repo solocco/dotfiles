@@ -1,0 +1,15 @@
+# i3 config file (v4)
+#
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+#
+
+## Load i3 config files
+include ~/.config/i3/config.d/*.conf
+
+exec_always --no-startup-id ~/.config/i3/scripts/autostart
+
+#exec --no-startup-id picom --config ~/.config/i3/picom.conf
+
+
+
+

@@ -1,0 +1,99 @@
+@import "colors/gruvbox"
+
+window {
+    background-color: @dark0;
+    border-color:     @light0;
+    border:           2;
+    padding:          4px;
+    margin:           0;
+    width:            40%;
+}
+
+mainbox {
+    background-color: @dark0;
+    border:           0;
+    padding:          0;
+}
+
+inputbar {
+    background-color: @dark0;
+    spacing:          0;
+    padding:          0;
+    margin:           0;
+    text-color:       @light0;
+    children:         [ prompt, entry, num-filtered-rows, textbox-sep, num-rows];
+}
+
+prompt {
+    background-color: @light0;
+    padding:          3px 6px;
+    text-color:       @dark0;
+    margin:           0px;
+}
+
+entry {
+    padding:          3px;
+    text-color:       @light0;
+    background-color: @dark0;
+}
+
+num-filtered-rows, num-rows, textbox-sep {
+    text-color:       @light0;
+    background-color: @dark0;
+    margin:           3px;
+}
+
+textbox-sep {
+    expand:  false;
+    str:     "/";
+}
+
+message {
+    margin: 2px 0px;
+}
+
+textbox {
+    background-color : @dark0;
+    text-color       : @light0;
+}
+
+listview {
+    margin:           2px 0px 0px 0px;
+    spacing:          2px;
+    scrollbar:        false;
+    background-color: @dark0;
+    lines:            8;
+}
+
+element-text {
+    border:           0;
+    padding:          2px;
+    background-color: @dark0;
+    text-color:       @light0;
+}
+
+element-text selected {
+    background-color: @light0;
+    text-color:       @dark0;
+
+}
+
+mode-switcher {
+    margin:           3px;
+    background-color: @dark0;
+}
+
+button {
+    padding:          2px 10px;
+    margin:           0px;
+    background-color: @dark0;
+    text-color:       @light0;
+    horizontal-align: 0.5;
+}
+
+button.selected {
+    background-color: @light0;
+    text-color:       @dark0;
+}
+
+

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+$HOME/.config/polybar/launchbspwm.sh
+
+light -S 20 &
+
+pgrep -x picom > /dev/null || picom --config $HOME/.config/bspwm/picom.conf &
+
+xsetroot -cursor_name left_ptr &
+
+feh --no-fehbg --bg-fill $HOME/.config/wallpaper/wallpaper.png &
+
+pgrep -x dunst > /dev/null || dunst -config $HOME/.config/dunst/dunstrc &

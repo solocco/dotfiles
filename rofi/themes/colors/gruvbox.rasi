@@ -1,0 +1,12 @@
+*{
+	dark0:  #282828;
+	dark1:  #3c3836;
+	dark2:  #504945;
+	dark3:  #665c54;
+
+	light0: #ebdbb2;
+	light1: #d5c4a1;
+	light2: #bdae93;
+	light3: #a89984;
+
+}

@@ -1,0 +1,24 @@
+# Font configuration
+font:
+  # Normal (roman) font face
+  normal:
+    family: "Iosevka Mayukai Monolite"
+    style: Bold
+
+  # Bold font face
+  bold:
+    family: "Iosevka Mayukai Monolite"
+    style: Bold
+
+  # Italic font face
+  italic:
+    family: "Iosevka Mayukai Monolite"
+    style: Italic
+
+  # Bold italic font face
+  bold_italic:
+    family: "Iosevka Mayukai Monolite"
+    style: Bold Italic
+
+  # Point size
+  size: 11

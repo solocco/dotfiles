@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+$HOME/.config/polybar/launch.sh
+
+$HOME/.config/i3/picom.conf
+
+light -S 20
+
+# Fix cursor
+xsetroot -cursor_name left_ptr
